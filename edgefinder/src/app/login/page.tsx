@@ -15,7 +15,6 @@ export const Login = () => {
                 <form className="flex flex-col">
                     <input type="text" placeholder="Username" className="login-input"/>
                     <input type="password" placeholder="Password" className="login-input"/>
-                    
                     <button type="submit" className="login-button">Login</button>
                     <Link href="/forgot-password" className="forgot-password">Forgot password?</Link>
                     <Link href="/signup" className="signup-button">Don't have an account? Sign up here.</Link>
