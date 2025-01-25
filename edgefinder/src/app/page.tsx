@@ -6,7 +6,6 @@ export default function Home() {
   return (
     <main>
       <Navbar />
-
       <div className="h-screen flex flex-col items-center justify-center bg-gray-800">
         <div className="flex flex-col items-center justify-center text-white">
           <h1 className="text-7xl font-title">EdgeFinder</h1>
